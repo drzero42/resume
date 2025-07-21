@@ -61,14 +61,13 @@ content:
     # - 'Advanced'
     # - 'Expert'
     # - 'Master'
-    - name: Web Development
+    - name: Infrastructure
       level: Expert
       keywords:
-        - Python
-        - Ruby
-        - CSS
-        - React
-        - JavaScript
+        - Kubernetes
+        - AWS
+        - GCP
+        - Linux Systems Administration
     - name: DevOps
       level: Intermediate
       keywords:
