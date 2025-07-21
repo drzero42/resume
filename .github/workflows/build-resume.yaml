@@ -15,5 +15,5 @@ jobs:
       - uses: addnab/docker-run-action@v3
         with:
           image: yamlresume/yamlresume:v0.5.1
-          options: -v ${{ github.workspace }}:/workspace --user 1000:1000 --workdir /workspace
+          options: -v ${{ github.workspace }}:/workspace --user 0:0 --workdir /workspace
           run: yamlresume build resume.yaml
