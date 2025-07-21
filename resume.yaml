@@ -24,39 +24,22 @@ content:
   profiles:
     - network: LinkedIn
       url: https://www.linkedin.com/in/andersboghbruun/
+      username: andersboghbruun
   education:
     - institution: Autodidact
+      area: IT
+      degree: Master
+      startDate: 1999-01-01
   work:
-    - name: PPResume
-      url: https://ppresume.com
-      startDate: Dec 1, 2022
+    - name: Corpay One
+      url: https://corpayone.com
+      startDate: Dec 1, 2021
       endDate:
-      position: Senior Software Engineer
+      position: Lead Site Reliability Engineer
       summary: |
-        - Developed and implemented efficient and scalable code, ensuring high-quality and maintainable web applications
-        - Collaborated with cross-functional teams to gather project requirements and translate them into technical solutions
-        - Conducted thorough testing and debugging to identify and resolve any issues or bugs in the software
-        - Actively participated in code reviews, providing valuable feedback to improve code quality and adherence to best practices
-        - Mentored and guided junior developers, fostering a collaborative and growth-oriented team environment
+        - ...
       keywords:
-        - Scalability
-        - Growth
-        - Quality
-        - Mentorship
-    - name: PPResume
-      url: https://ppresume.com
-      startDate: Sep 1, 2020
-      endDate: Dec 1, 2022
-      position: Software Engineer
-      summary: |
-        - Created reusable React components to ensure code efficiency and maintainability
-        - Integrated with RESTful APIs to fetch and display dynamic data on the frontend
-        - Implemented client-side routing using React Router for smooth navigation between pages
-        - Actively participated in Agile development methodologies, attending daily stand-up meetings and sprint planning sessions
-      keywords:
-        - RESTful
-        - React
-        - Agile
+        - ...
   languages:
     # Valid language fluency options:
     #
@@ -65,14 +48,10 @@ content:
     # - 'Minimum Professional Proficiency'
     # - 'Full Professional Proficiency'
     # - 'Native or Bilingual Proficiency'
+    - language: Danish
+      fluency: Native or Bilingual Proficiency
     - language: English
       fluency: Native or Bilingual Proficiency
-      keywords:
-        - TOEFL 110
-        - IELTS 7.5
-    - language: Chinese
-      fluency: Elementary Proficiency
-      keywords: []
   skills:
     # Valid level options:
     #
