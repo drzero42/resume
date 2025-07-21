@@ -13,8 +13,8 @@ jobs:
       - uses: addnab/docker-run-action@v3
         with:
           image: yamlresume/yamlresume:v0.5.1
-          options: -v ${{ github.workspace }}:/workspace --user 0:0
-          run: yamlresume build /workspace/resume.yaml
+          options: -v ${{ github.workspace }}:/workspace --user 0:0 --workdir /workspace
+          run: yamlresume build resume.yaml
       - name: Debug
         run: pwd && ls -lha
       - name: Release
