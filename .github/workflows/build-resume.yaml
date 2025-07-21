@@ -1,0 +1,21 @@
+name: Build Resume
+on:
+  push:
+    branches:
+      - "*"
+    paths:
+      - "resume.yaml"
+jobs:
+  checkout:
+    name: Checkout repo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.2.2
+  generate_pdf:
+    name: Generate PDF
+    runs-on: ubuntu-latest
+    needs: checkout
+    container:
+      image: yamlresume/yamlresume:v0.5.1
+      volumes: ${{ github.workspace }}:/workspace
+      options: build resume.yaml
