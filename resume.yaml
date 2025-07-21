@@ -1,9 +1,8 @@
 # yaml-language-server: $schema=https://yamlresume.dev/schema.json
-
 ---
 content:
   basics:
-    name: Andy Dufresne
+    name: Anders Bøgh Bruun
     headline: Headed for the Pacific
     phone: "(213) 555-9876"
     email: hi@ppresume.com
