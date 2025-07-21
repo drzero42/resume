@@ -1,11 +1,8 @@
 name: Build Resume
 on:
   push:
-    branches:
-      - "*"
-    paths:
-      - "resume.yaml"
-  workflow_dispatch: {}
+    tags:
+      - v*
 jobs:
   generate_pdf:
     name: Generate PDF
