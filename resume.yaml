@@ -22,12 +22,8 @@ content:
     city: Copenhagen
     country: Denmark
   profiles:
-    - network: Line
-      url: https://line.com/PPResumeX
-      username: PPResumeX
-    - network: Twitter
-      url: https://twitter.com/PPResumeX
-      username: PPResumeX
+    - network: LinkedIn
+      url: https://www.linkedin.com/in/andersboghbruun/
   education:
     - institution: Autodidact
   work:
