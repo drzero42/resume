@@ -82,12 +82,6 @@ content:
         - Sketch
         - Figma
         - Photoshop
-  awards:
-    - title: Dean's List
-      awarder: University of Southern California
-      date: Oct 2016
-      summary: |
-        Awarded to students who achieve a high academic standing by maintaining a specified grade point average (GPA) during a semester.
   certificates:
     - name: AWS Certified Developer - Associate
       url: https://aws.amazon.com/certification/
