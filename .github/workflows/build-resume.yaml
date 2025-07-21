@@ -15,4 +15,5 @@ jobs:
       - uses: addnab/docker-run-action@v3
         with:
           image: yamlresume/yamlresume:v0.5.1
+          registry: docker.io
           options: -v ${{ github.workspace }}:/workspace build /workspace/resume.yaml
