@@ -5,6 +5,7 @@ on:
       - "*"
     paths:
       - "resume.yaml"
+  workflow_dispatch: {}
 jobs:
   generate_pdf:
     name: Generate PDF
