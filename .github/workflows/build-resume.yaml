@@ -16,4 +16,4 @@ jobs:
         with:
           image: yamlresume/yamlresume:v0.5.1
           options: -v ${{ github.workspace }}:/workspace
-          run: build /workspace/resume.yaml
+          run: yamlresume build /workspace/resume.yaml
