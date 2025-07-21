@@ -1,5 +1,8 @@
 name: Build Resume
-on: [create]
+on:
+  push:
+    tags:
+      - "v*"
 jobs:
   generate_pdf:
     name: Generate PDF
