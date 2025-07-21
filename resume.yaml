@@ -19,11 +19,8 @@ content:
       - Experiened in databases (SQL, NoSQL), familiar with server-side technologies (Node.js, Express, etc.)
       - Team player, with detail-oriented mindset and a keen eye for design and user experiences
   location:
-    address: 123 Main Street
-    city: Sacramento
-    region: California
-    country: United States
-    postalCode: "95814"
+    city: Copenhagen
+    country: Denmark
   profiles:
     - network: Line
       url: https://line.com/PPResumeX
