@@ -1,8 +1,5 @@
 name: Build Resume
-on:
-  push:
-    tags:
-      - v*
+on: create
 jobs:
   generate_pdf:
     name: Generate PDF
@@ -14,3 +11,8 @@ jobs:
           image: yamlresume/yamlresume:v0.5.1
           options: -v ${{ github.workspace }}:/workspace --user 0:0
           run: yamlresume build /workspace/resume.yaml
+      - name: Release
+        uses: softprops/action-gh-release@v2
+        if: github.ref_type == 'tag'
+        with:
+          files: resume.pdf
