@@ -12,6 +12,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4.2.2
-      - uses: docker://yamlresume/yamlresume:v0.5.1
-        with:
-          args: build resume.yaml
+      - run: npm install -g yamlresume
+      - run: yamlresume build resume.yaml
