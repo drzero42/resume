@@ -1,5 +1,5 @@
 name: Build Resume
-on: create
+on: [create]
 jobs:
   generate_pdf:
     name: Generate PDF
