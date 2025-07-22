@@ -298,11 +298,9 @@ content:
         - Ansible
   certificates:
     - name: Certified Kubernes Application Developer
-      url: https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/
       issuer: Linux Foundation
       date: Sep 2021
     - name: Certified Kubernes Administrator
-      url: https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/
       issuer: Linux Foundation
       date: Oct 2021
   projects:
