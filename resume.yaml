@@ -3,7 +3,7 @@
 content:
   basics:
     name: Anders Bøgh Bruun
-    headline: Let's build something awesome!
+    headline: But is it maintainable, servicable and understandable?
     phone: "+45 25342262"
     email: resume@boghbruun.dk
     # All summary fields supports a limited rich text capabilities in markdown
@@ -14,10 +14,12 @@ content:
     # - ordered list, unordored list and nested sub list
     # - links (e.g. `[link](https://ppresume.com)`)
     summary: |
-      - Computer Science major with strong foundation in data structures, algorithms, and software development
-      - Pixel perfect full stack web developer, specialised in creating high-quality, visually appealing websites
-      - Experiened in databases (SQL, NoSQL), familiar with server-side technologies (Node.js, Express, etc.)
-      - Team player, with detail-oriented mindset and a keen eye for design and user experiences
+      - Passionate about technology
+      - Avid Open-Source lover
+      - Old-school system administration skills as well as modern thinking Cloud Native practisioner
+      - Team player with a focus on collaboration
+      - Educator by nature with the ability to communicate complicated technical subjects in understandable terms
+      - Tinkerer with a deep desire to understand everything
   location:
     city: Copenhagen
     country: Denmark
@@ -33,13 +35,217 @@ content:
   work:
     - name: Corpay One
       url: https://corpayone.com
-      startDate: Dec 1, 2021
+      startDate: Dec, 2021
       endDate:
       position: Lead Site Reliability Engineer
       summary: |
         Main expert on AWS and Kubernetes. Architecting and building cloud native infrastructure for running, observing and maintaining the Corpay One product.
       keywords:
-        - ...
+        - AWS
+        - Kubernetes
+        - Github
+        - Terraform
+        - GitOps (Flux)
+        - Observability
+        - Prometheus
+        - Grafana
+    - name: Fadata
+      url: https://fadata.eu
+      startDate: June, 2021
+      endDate: Nov, 2021
+      position: Head of Cloud Infrastructure
+      summary: |
+        Tasked with creating an SRE team and help modernize the legacy stack in order to create a SaaS product.
+      keywords:
+        - Azure
+        - Kubernetes
+        - Java
+        - Oracle
+    - name: Cellpoint Digital
+      url: https://cellpointdigital.com
+      startDate: Nov, 2020
+      endDate: May, 2021
+      position: Head of Technology Operations
+      summary: |
+        Took over the leadership of the TechOps division.
+      keywords:
+        - GCP
+        - Kubernetes
+        - Java
+        - PHP
+        - PostgreSQL
+        - Terraform
+        - GitOps (ArgoCD)
+        - Observability
+        - Prometheus
+        - Grafana
+    - name: Cellpoint Digital
+      url: https://cellpointdigital.com
+      startDate: Sep, 2019
+      endDate: Nov, 2020
+      position: Infrastructure Architect
+      summary: |
+        Team and tech lead for TechOps, which in Cellpoint Digital is a
+        combination of Infrastructure (SRE) and Operations. My work has
+        mainly been to lead the effort of moving from legacy (EC2-based)
+        infrastructure to Kubernetes on Google Cloud Platform.
+      keywords:
+        - AWS
+        - GCP
+        - Kubernetes
+        - Java
+        - PHP
+        - PostgreSQL
+        - Terraform
+        - GitOps (ArgoCD)
+        - Observability
+        - Prometheus
+        - Grafana
+    - name: Cellpoint Digital (Formerly Cellpoint Mobile)
+      url: https://cellpointdigital.com
+      startDate: Dec, 2018
+      endDate: Sep, 2019
+      position: Infrastructure Engineer
+      summary: |
+        Responsible for transforming legacy infrastructure on AWS EC2
+        instances and various VPS and bare-metal hosting services to cloud-
+        native, Kubernetes-backed infrastructure running on GCP. Also helping
+        to introduce DevOps culture.
+      keywords:
+        - AWS
+        - GCP
+        - Kubernetes
+        - Docker
+        - Java
+        - PHP
+        - PostgreSQL
+        - Terraform
+        - GitOps (ArgoCD)
+        - Jira
+        - Bitbucket
+        - Go
+        - Jenkins
+    - name: Global Scanning Denmark A/S
+      url: https://globalscanning.com
+      startDate: Dec, 2016
+      endDate: Nov, 2018
+      position: Operations Engineer
+      summary: |
+        Responsible for cloud infrastructure (AWS+GCP) and making sure the
+        developed apps are truly Cloud Native, 12-factor, micro-services. Also
+        responsible for CI/CD pipelines.
+      keywords:
+        - AWS
+        - GCP
+        - Kubernetes
+        - Docker
+        - Terraform
+        - Jenkins
+        - Python
+        - Go
+    - name: Adapt A/S
+      url: https://adapt.dk
+      startDate: Feb, 2015
+      endDate: Nov, 2016
+      position: Systems Administrator
+      summary: |
+        Worked with RHEL, CentOS, Ubuntu, KVM, ELK, Icinga 2, Nagios,
+        Puppet, Salt, Apache, PHP, Python, Nginx, Varnish, MariaDB, ZFS and
+        Vagrant amongst others.
+      keywords:
+        - Linux (RHEL, CentOS and Ubuntu)
+        - Virtual Machines (KVM)
+        - Nginx
+        - Varnish
+        - Python
+        - PHP
+        - MariaDB
+        - Apache
+        - ZFS
+        - ELK stack
+        - Nagios
+        - Icinga 2
+        - Puppet
+    - name: Det Danske Sprog- og Litteraturselskab (DSL)
+      url: https://dsl.dk
+      startDate: Jan, 2003
+      endDate: Jan, 2015
+      position: Head of IT
+      summary: |
+        Part systems administrator, part supporter, part infrastructure
+        architect, part solutions architech. Worked with Xen, Ubuntu, Saltstack,
+        Nginx, Plone, LDAP, iSCSI, clustering (heartbeat/keepalived/DRBD),
+        MariaDB, Python, NoMachine, Thinclients, Nagios.
+      keywords:
+        - Linux (Ubuntu and SLES)
+        - Xen
+        - Saltstack
+        - Nginx
+        - Plone
+        - LDAP
+        - iSCSI
+        - Clustering
+        - Heartbeat
+        - Keepalived
+        - DRBD
+        - MariaDB
+        - Python
+        - NoMachine
+        - Thinclients
+        - Nagios
+    - name: Det Danske Sprog- og Litteraturselskab (DSL)
+      url: https://dsl.dk
+      startDate: Jun, 2002
+      endDate: Dec, 2002
+      position: IT supporter
+      summary: |
+        Support office personnel with IT-related issues.
+      keywords:
+        - OS/2
+        - Windows
+        - Linux
+    - name: Det Danske Sprog- og Litteraturselskab (DSL)
+      url: https://dsl.dk
+      startDate: Sep, 2001
+      endDate: May, 2002
+      position: Student helper
+      summary: |
+        Worked on a web-project for Gammeldansk Ordbog (dictionary of old Danish)
+      keywords:
+        - PHP
+        - XML
+    - name: Merkantildata
+      startDate: Aug, 2000
+      endDate: Feb, 2001
+      position: Systems consultant
+      summary: |
+        Worked in the Network Operations Center.
+      keywords:
+        - AIX
+        - Tru64
+        - HP-UX
+        - Linux
+        - Windows
+    - name: Merkantildata
+      startDate: Aug, 2000
+      endDate: Feb, 2001
+      position: Systems consultant
+      summary: |
+        Worked in the Network Operations Center.
+      keywords:
+        - AIX
+        - Tru64
+        - HP-UX
+        - Linux
+        - Windows
+    - name: Proffice A/S
+      startDate: May, 2000
+      endDate: Jul, 2000
+      position: Internet supporter
+      summary: |
+        Worked in a callcenter supporter customers of Telefona
+      keywords:
+        - IT-support
   languages:
     # Valid language fluency options:
     #
@@ -61,85 +267,55 @@ content:
     # - 'Advanced'
     # - 'Expert'
     # - 'Master'
-    - name: Infrastructure
+    - name: Systems administration (old-school)
+      level: Expert
+      keywords:
+        - Linux
+        - Configuration Management
+        - Puppet
+        - Ansible
+        - Saltstack
+    - name: Infrastructure-as-code
+      level: Expert
+      keywords:
+        - Terraform
+        - GitOps
+        - Flux
+        - ArgoCD
+        - Nix
+    - name: Cloud-native infrastructure
       level: Expert
       keywords:
         - Kubernetes
         - AWS
         - GCP
-        - Linux Systems Administration
     - name: DevOps
-      level: Intermediate
+      level: Expert
       keywords:
         - Python
-        - Kubernetes
         - Docker
-        - Shell
+        - Bash
         - Ansible
-    - name: Design
-      level: Intermediate
-      keywords:
-        - Sketch
-        - Figma
-        - Photoshop
   certificates:
-    - name: AWS Certified Developer - Associate
-      url: https://aws.amazon.com/certification/
-      issuer: AWS
-      date: Mar 2021
-  publications:
-    - publisher: ACM Transactions on Interactive Intelligent Systems
-      url: https://dl.acm.org/journal/tiis
-      name: Enhancing Human-Computer Interaction through Augmented Reality
-      releaseDate: Dec 2017
-      summary: |
-        - Explores the potential of augmented reality (AR) in improving interaction between humans and computers
-        - Highlights benefits of AR in various areas such as gaming, education, healthcare, and design
-        - Discusses challenges and future directions of AR technology in enhancing user experience
-  references:
-    - name: Dr. Amanda Reynolds
-      phone: "(555) 123-4567"
-      relationship: Computer Science Professor
-      email: amanda.reynolds@usc.edu
-      summary: |
-        Andy Dufresne shows exceptional problem-solving skills and a solid understanding of programming concepts, he would bring immense value to any team or organization he becomes a part of.
+    - name: Certified Kubernes Application Developer
+      url: https://training.linuxfoundation.org/certification/certified-kubernetes-application-developer-ckad/
+      issuer: Linux Foundation
+      date: Sep 2021
+    - name: Certified Kubernes Administrator
+      url: https://training.linuxfoundation.org/certification/certified-kubernetes-administrator-cka/
+      issuer: Linux Foundation
+      date: Oct 2021
   projects:
-    - name: EduWeb
-      url: https://www.eduweb.xyz/
-      description: A web-based educational platform for interactive learning
-      startDate: Sep 2016
-      endDate: Dec 2016
+    - name: Source Mage
+      url: https://sourcemage.org
+      description: Source-based Linux distribution
+      startDate: Dec, 2000
+      endDate: Aug 2001
       summary: |
-        - Designed to enhance online learning experiences
-        - Facilitates students' engagement and collaboration through interactive features and user-friendly interface
-        - Offers a wide range of courses across various subjects
-        - Aims to improve the way students learn through the power of the web
+        Lead developer for the package manager.
       keywords:
-        - Education
-        - Online Learning
-        - HCI
-  interests:
-    - name: Sports
-      keywords:
-        - Soccer
-        - Swimming
-        - Bicycling
-        - Hiking
-    - name: Music
-      keywords:
-        - Piano
-        - Guitar
-  volunteer:
-    - organization: USC Computer Science and Engineering Society
-      url: https://www.usccsesociety.org/
-      position: Tech Mentor
-      startDate: Sep 2015
-      endDate: Jul 2023
-      summary: |
-        - Volunteered as a Tech Mentor at USC Computer Science and Engineering Society
-        - Provided guidance and assistance to fellow students in their technical projects and coursework
-        - Assisted in organizing workshops, coding competitions, and networking events for the society members
-        - Contributed to fostering a collaborative and supportive environment within the student community
+        - Bash
+        - Linux
 
 layout:
   locale:
