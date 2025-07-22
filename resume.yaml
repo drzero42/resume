@@ -275,6 +275,12 @@ content:
         - Puppet
         - Ansible
         - Saltstack
+    - name: Linux
+      level: Expert
+      keywords: 
+        - Ubuntu
+        - NixOS
+        - Talos
     - name: Infrastructure-as-code
       level: Expert
       keywords:
