@@ -33,10 +33,15 @@ content:
       degree: Master
       startDate: 1999-01-01
   work:
+    - name: Redpill-Linpro
+      url: https://www.redpill-linpro.com
+      startDate: Mar, 2026
+      endDate:
+      position: Senior Platform Engineer
     - name: Corpay One
       url: https://corpayone.com
       startDate: Dec, 2021
-      endDate:
+      endDate: Feb, 2026
       position: Lead Site Reliability Engineer
       summary: |
         Main expert on AWS and Kubernetes. Architecting and building cloud native infrastructure for running, observing and maintaining the Corpay One product.
@@ -277,7 +282,7 @@ content:
         - Saltstack
     - name: Linux
       level: Expert
-      keywords: 
+      keywords:
         - Ubuntu
         - NixOS
         - Talos
