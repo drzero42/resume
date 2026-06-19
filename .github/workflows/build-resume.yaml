@@ -9,7 +9,7 @@ jobs:
     name: Generate PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4.2.2
+      - uses: actions/checkout@v7.0.0
       - uses: addnab/docker-run-action@v3
         with:
           image: yamlresume/yamlresume:v0.5.1
